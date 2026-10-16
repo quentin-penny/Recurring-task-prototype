@@ -1,0 +1,109 @@
+:root {
+  /* Automation */
+  --ui-automation-primary-gradient: linear-gradient(0deg, var(--ui-automation-300) 0%, var(--ui-automation-500) 100%);
+
+  /* Autopilot */
+  --ui-autopilot-primary-gradient: radial-gradient(50% 50% at 88% 19%, #8052FF 0%, rgba(128, 82, 255, 0.00) 100%), radial-gradient(50% 50% at 0% 0%, #290099 0%, rgba(41, 0, 153, 0.00) 100%), radial-gradient(50% 50% at 48% 100%, #0569FF 0%, rgba(5, 105, 255, 0.00) 100%), radial-gradient(50% 50% at 100% 100%, #3700C2 0%, rgba(55, 0, 194, 0.00) 100%), #8D6DE3;
+  --ui-autopilot-primary-gradient-hover: radial-gradient(50% 50% at 88% 19%, #6943D1 0%, rgba(105, 67, 209, 0.00) 100%), radial-gradient(50% 50% at 0% 0%, #21007D 0%, rgba(33, 0, 125, 0.00) 100%), radial-gradient(50% 50% at 48% 100%, #0456D1 0%, rgba(4, 86, 209, 0.00) 100%), radial-gradient(50% 50% at 100% 100%, #2D009F 0%, rgba(45, 0, 159, 0.00) 100%), #735ABA;
+
+  /* E-Invoicing */
+  --ui-e-invoicing-primary-gradient: linear-gradient(112deg, var(--ui-primary-300) -9.07%, var(--ui-primary-600) 96.79%);
+  --ui-e-invoicing-primary-gradient-hover: linear-gradient(112deg, var(--ui-primary-400) -9.07%, var(--ui-primary-700) 96.79%);
+  --ui-e-invoicing-secondary-gradient: linear-gradient(112deg, var(--ui-primary-50) -9.07%, var(--ui-primary-200) 96.79%);
+  --ui-e-invoicing-secondary-gradient-hover: linear-gradient(112deg, var(--ui-primary-100) -9.07%, var(--ui-primary-300) 96.79%);
+
+  --ui-easing-speed-in-slow-out: var(--easing-speed-in-slow-out);
+
+  --color-background-surface-upsell-soft-default: var(--ui-secondary-25);
+  --color-background-surface-upsell-mid-default: #F0F8F7;
+  --color-background-surface-upsell-strong-default: #E1F2EF;
+  --color-background-surface-upsell-stronger-default: #C2DADA;
+
+    /* Navigation */
+  --color-nav-green-softer: #E5F3EC;
+  --color-nav-green-soft: #C4E4D4;
+  --color-nav-green-mid: #62B994;
+  --color-nav-green-strong: #00562E;
+  --color-nav-green-stronger: #003F19;
+
+  --color-nav-blue-softer: #EAEFFF;
+  --color-nav-blue-soft: #D0DCFF;
+  --color-nav-blue-mid: #8DA4FF;
+  --color-nav-blue-strong: #313CAB;
+  --color-nav-blue-stronger: #212292;
+
+  --color-nav-teal-softer: #E4F2FB;
+  --color-nav-teal-soft: #C2E1F5;
+  --color-nav-teal-mid: #5BB2E3;
+  --color-nav-teal-strong: #004D7F;
+  --color-nav-teal-stronger: #003567;
+
+  --color-nav-violet-softer: #F1EDFC;
+  --color-nav-violet-soft: #E1D9F8;
+  --color-nav-violet-mid: #B49CEA;
+  --color-nav-violet-strong: #57398B;
+  --color-nav-violet-stronger: #432272;
+
+  --color-nav-red-softer: #FFEBEB;
+  --color-nav-red-soft: #FDD2D1;
+  --color-nav-red-mid: #F08D90;
+  --color-nav-red-strong: #990019;
+  --color-nav-red-stronger: #710000;
+
+  --color-nav-yellow-softer: #FCEFCB;
+  --color-nav-yellow-soft: #F7DB87;
+  --color-nav-yellow-mid: #CFA300;
+  --color-nav-yellow-strong: #6A4100;
+  --color-nav-yellow-stronger: #542A00;
+
+  --color-nav-brown-softer: #F4EFEB;
+  --color-nav-brown-soft: #E6DBD2;
+  --color-nav-brown-mid: #BFA48D;
+  --color-nav-brown-strong: #694119;
+  --color-nav-brown-stronger: #522B00;
+
+  --color-nav-gray-softer: #EEF0F1;
+  --color-nav-gray-soft: #DADDE0;
+  --color-nav-gray-mid: #A2AAB2;
+  --color-nav-gray-strong: #434B52;
+  --color-nav-gray-stronger: #2F363B;
+
+  /* Shadows */
+  --ui-shadow-elevation-sm: 0 0 2px 0 rgba(17, 24, 39, 0.1), 0 2px 10px 0 rgba(17, 24, 39, 0.1);
+  --ui-shadow-elevation-md: 0 0 3px 0 rgba(17, 24, 39, 0.1), 0 4px 20px 0 rgba(17, 24, 39, 0.15);
+  --ui-shadow-elevation-lg: 0 0 4px 0 rgba(17, 24, 39, 0.1), 0 8px 40px 0 rgba(17, 24, 39, 0.15);
+  --ui-shadow-focus: 0 0 0 3px rgb(187, 247, 208);
+  --ui-shadow-inset: inset 0 1px 2px 0 rgba(17, 24, 39, 0.1);
+
+  /* Font family */
+  --ui-font-family-sans-serif: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI Semibold", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ui-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Font size */
+  --ui-font-size-10: 10px;
+  --ui-font-size-12: 12px;
+  --ui-font-size-14: 14px;
+  --ui-font-size-16: 16px;
+  --ui-font-size-18: 18px;
+  --ui-font-size-20: 20px;
+  --ui-font-size-22: 22px;
+  --ui-font-size-32: 32px;
+  --ui-font-size-48: 48px;
+
+  /* Font weight */
+  --ui-font-weight-regular: 400;
+  --ui-font-weight-medium: 500;
+  --ui-font-weight-semi-bold: 600;
+
+  /* Line height */
+  --ui-line-height-16: 16px;
+  --ui-line-height-20: 20px;
+  --ui-line-height-24: 24px;
+  --ui-line-height-32: 32px;
+  --ui-line-height-40: 40px;
+  --ui-line-height-58: 58px;
+
+  /* Letter spacing */
+  --ui-letter-spacing-0: 0px;
+  --ui-letter-spacing-02: 0.2px;
+}

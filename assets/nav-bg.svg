@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="200" height="982" viewBox="0 0 200 982" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background" clip-path="url(#clip0_0_3186)">
+<rect width="200" height="982" fill="#08234D"/>
+<circle id="bubble" cx="160" cy="810" r="100" fill="#006666"/>
+<circle id="bubble_2" cy="858" r="100" fill="#F0977F"/>
+<circle id="bubble_3" cx="100" cy="982" r="100" fill="#1C73FF"/>
+<foreignObject x="-80" y="-80" width="360" height="1142"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(40px);clip-path:url(#bgblur_1_0_3186_clip_path);height:100%;width:100%"></div></foreignObject><rect id="Glass" data-figma-bg-blur-radius="80" width="200" height="982" fill="#08234D" fill-opacity="0.64"/>
+</g>
+<defs>
+<clipPath id="bgblur_1_0_3186_clip_path" transform="translate(80 80)"><rect width="200" height="982"/>
+</clipPath><clipPath id="clip0_0_3186">
+<rect width="200" height="982" fill="white"/>
+</clipPath>
+</defs>
+</svg>
